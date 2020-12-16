@@ -160,10 +160,13 @@ def team_names
   [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end
 
-def team_colors(team)
+def player_numbers(team)
+  numbers = []
   game_hash.each{ |side, values|
     if values[:team_name] == team
-      
+      values[:players].each{
+        array << values[:players][:number]
+      }
     end
   }
 end
