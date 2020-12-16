@@ -149,5 +149,6 @@ def shoe_size(player)
 end
 
 def team_colors(team)
-  game_hash[team][:colors]
+  game_hash.each{ |side, values|
+  binding.pry
 end
