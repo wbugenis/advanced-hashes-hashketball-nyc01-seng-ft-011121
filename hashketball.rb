@@ -183,7 +183,7 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  big_shoe_player{ shoe: 0 }
+  big_shoe_player = { shoe: 0 }
   game_hash.each{ |side, values|
     values[:players.each]{ |member|
       if member[:shoe] > big_shoe_player[:shoe]
