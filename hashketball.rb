@@ -134,5 +134,4 @@ def num_points_scored(player)
     binding.pry
     return player_hash[:score]
   }
-  binding.pry
 end
