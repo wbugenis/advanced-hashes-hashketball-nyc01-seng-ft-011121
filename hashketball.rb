@@ -150,5 +150,7 @@ end
 
 def team_colors(team)
   game_hash.each{ |side, values|
-  binding.pry
+    binding.pry
+    game_hash[side][:colors]
+  }
 end
