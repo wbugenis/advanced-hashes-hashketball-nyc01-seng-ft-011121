@@ -134,5 +134,6 @@ def num_points_scored(player)
       if num[:player_name] = player
         return game_hash[side][:players][num][:points]
       end
+    }
   }
 end
