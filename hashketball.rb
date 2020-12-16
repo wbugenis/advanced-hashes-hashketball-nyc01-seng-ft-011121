@@ -169,6 +169,6 @@ def player_numbers(team)
       }
     end
   }
-  binding.pry
+  bindi
   numbers
 end
