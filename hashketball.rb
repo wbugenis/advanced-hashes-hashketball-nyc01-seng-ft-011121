@@ -171,3 +171,8 @@ def player_numbers(team)
   }
   numbers
 end
+
+def player_stats(player)
+  game_hash.each{ |side, values|
+    if values[:players] == player
+      return values[:players][player]
