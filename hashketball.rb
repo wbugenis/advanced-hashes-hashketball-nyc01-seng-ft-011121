@@ -130,7 +130,7 @@ end
 
 def num_points_scored(player)
   game_hash.each{ |side, values|
-    game_hash[side][:players].each{ |member|
+    values[:players].each{ |member|
       if member[:player_name] == player
         return member[:points]
       end
