@@ -144,4 +144,6 @@ def shoe_size(player){
       if member[:player_name] == player
         return member[:shoe_size]
       end
+    }
+  }
 }
