@@ -165,7 +165,7 @@ def player_numbers(team)
   game_hash.each{ |side, values|
     if values[:team_name] == team
       values[:players].each{
-        array << values[:players][:number]
+        numbers << values[:players][:number]
       }
     end
   }
