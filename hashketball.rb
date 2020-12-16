@@ -150,3 +150,4 @@ end
 
 def team_colors(team)
   game_hash[team][:colors]
+end
