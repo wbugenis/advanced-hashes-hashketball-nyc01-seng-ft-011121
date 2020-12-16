@@ -130,7 +130,8 @@ end
 
 def num_points_scored(player)
   game_hash.each{ |side, values|
-    player_hash = game_hash[side][:players].fetch(
-    return player_hash[:score]
+    game_hash[side][:players].each do { |num|
+      if num[:player_name] = player
+        return game_hash[side][:players][num][points
   }
 end
