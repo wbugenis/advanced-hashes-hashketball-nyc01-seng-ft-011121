@@ -130,6 +130,7 @@ end
 
 def num_points_scored(player)
   game_hash.each{ |side, values|
+    binding.pry
     player_hash = game_hash[side][:players].fetch(player)
     binding.pry
     return player_hash[:score]
