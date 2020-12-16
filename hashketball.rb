@@ -159,3 +159,11 @@ end
 def team_names
   [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end
+
+def team_colors(team)
+  game_hash.each{ |side, values|
+    if values[:team_name] == team
+      
+    end
+  }
+end
