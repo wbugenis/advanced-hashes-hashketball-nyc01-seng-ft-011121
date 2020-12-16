@@ -177,3 +177,5 @@ def player_stats(player)
   binding.pry
     if values[:players] == player
       return values[:players][player]
+    end
+  }
