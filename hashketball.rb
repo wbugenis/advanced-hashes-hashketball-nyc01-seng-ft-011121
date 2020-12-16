@@ -174,7 +174,6 @@ end
 
 def player_stats(player)
   game_hash.each{ |side, values|
-  binding.pry
     values[:players].each{ |member|
       if member[:player_name] == player
         return member
