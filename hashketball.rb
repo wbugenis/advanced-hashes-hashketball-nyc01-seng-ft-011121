@@ -179,3 +179,4 @@ def player_stats(player)
       return values[:players][player]
     end
   }
+end
