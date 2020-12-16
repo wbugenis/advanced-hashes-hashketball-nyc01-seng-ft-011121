@@ -132,7 +132,7 @@ def num_points_scored(player)
   game_hash.each{ |side, values|
     game_hash[side][:players].each{ |member|
       if member[:player_name] == player
-        return member[:points]
+        member[:points]
       end
     }
   }
@@ -147,3 +147,6 @@ def shoe_size(player)
     }
   }
 end
+
+def team_colors(team)
+  game_hash
