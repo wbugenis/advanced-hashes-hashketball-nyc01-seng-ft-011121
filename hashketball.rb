@@ -169,6 +169,5 @@ def player_numbers(team)
       }
     end
   }
-  bindi
   numbers
 end
